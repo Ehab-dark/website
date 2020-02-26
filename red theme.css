@@ -1,0 +1,36 @@
+/*********                  default theme*/
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.option-box .gear-check {
+    background-color: rgba(248, 6, 6, 0.966);
+}
+.about h1 span,
+.testimonials span,
+.footer h3,
+.footer .copyright span,
+.navbar-brand span {
+    color:rgba(248, 6, 6, 0.966);
+}
+
+/*                      dropdown-menu           */
+.dropdown-menu {
+    border-top: 3px solid rgba(248, 6, 6, 0.966);
+}
+.option-box .color-option,
+.testimonials .carousel-indicators li.active{
+
+    border: 3px solid rgba(248, 6, 6, 0.966);
+}
+.scroll-top{
+    border: 2px solid rgba(248, 6, 6, 0.966);
+}
+.scroll-top:hover{
+        border: 3px solid rgba(248, 6, 6, 0.966);
+    }
+    .about span{
+        color:rgba(248, 6, 6, 0.966);
+    }

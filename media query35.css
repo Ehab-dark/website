@@ -1,0 +1,96 @@
+                /*                      Start media Query                   */
+                @media (max-width: 768px)/*for mobil screen (phone and tablets)*/
+                {
+                    .navbar-inverse .navbar-nav > li > a {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        }
+                        .about{
+                            padding-top: 40px;
+                            padding-bottom: 30px;
+                        }
+                    .about h3{
+                        font-weight: bold;
+                        }
+                    .about span{
+                        color: rgb(170, 11, 11); 
+                    }
+                    .about .lead {
+                        font-size: 18px;
+                    }
+
+                    .features h1{
+                        font-size: 30px;
+                    }
+                    .subscribe .form-control {
+                        margin: 20px auto;
+                        width: 400px;
+                    }
+                    .navbar-fixed-top .navbar-collapse,
+                    .navbar-fixed-bottom .navbar-collapse{
+                        max-height: none;
+                    }
+
+                    .statistics .stats p{
+                        font-size: 17px;
+                    }
+ 
+                    .statistics h1{
+                        margin-bottom: 30px
+                    }
+                    
+
+                    .statistics .data{
+                        padding-bottom: 0;
+                        padding-top: 15px;
+                    }
+                    .statistics {
+                        
+                        height: 384px;
+                        height: 100%;}
+
+                }
+                /* for small screen*/
+                @media (min-width: 769px) and (max-width: 991px) 
+            
+                {
+                    .statistics .stats p{
+                        font-size: 25px;
+                    }
+ 
+                    .statistics h1{
+                        margin-bottom: 30px
+                    }
+                    
+
+                    .statistics .data{
+                        padding-bottom: 0;
+                        padding-top: 15px;
+                    }
+                    .statistics {
+                
+                        height: 405px;
+                        height: 100%;}
+                    
+                }
+                @media (min-width: 992px) and (max-width: 1199px) /* for Medium screen*/
+            
+                {
+                    .statistics {
+                
+                        height: 418px;
+                        height: 100%;}
+                }
+
+                @media (min-width: 1200px) /* for large screen*/
+                {
+                    .statistics {
+                
+                        height: 424px;
+                    height: 100%;}
+                    
+                    .statistics .data{
+                  
+                        padding-bottom: 50px;
+                    }
+                }
